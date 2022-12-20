@@ -20,4 +20,10 @@ class TasksTest {
         boolean isValid = Tasks.isValidSequence(sequence);
         System.out.println(isValid);
     }
+
+    @Test
+    void countFrequencies() {
+        int[] nums = {1, 2, 1, 1, 3, 2, 1, 4, 2, 2, 3, 4, 5};
+        Tasks.countFrequencies(nums);
+    }
 }
